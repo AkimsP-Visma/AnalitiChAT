@@ -6,7 +6,7 @@ using Azure.AI.OpenAI;
 using OpenAI.Chat;
 using static System.Environment;
 
-const string basePath = @".";
+const string basePath = @"./Data";
 
 var endpoint = GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT");
 var key = GetEnvironmentVariable("AZURE_OPENAI_API_KEY");
